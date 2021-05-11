@@ -1,0 +1,22 @@
+{
+  "name": "osmo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "autoria": "node ./src/autoria.js",
+    "abua": "node ./src/pars.js",
+    "olx": "node ./src/olx.js",
+    "rst": "node ./src/rst.js"
+  },
+  "author": "Anton",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "express": "^4.17.1",
+    "needle": "^2.6.0",
+    "request": "^2.88.2",
+    "tress": "^1.1.4"
+  }
+}
